@@ -1,4 +1,4 @@
-### Blender
+## Blender
 
 F12 渲染预览  
 G grab 拖动  
@@ -42,3 +42,24 @@ H，Alt(Option + H) 切换物体显示
 选中相机状态下，按Ctrl + Alt + NumPad将以当前视角screenshut
 
 Alt + G, 任何选中的对象都会移到视口中心
+
+Ctrl + Tab 呼出编辑模式 Weight Editor可以用来修改Weight, 右键修改Weight来重涂颜色， F是笔刷大小，Shift + F是笔刷力度, Ctrl + F控制weight值  
+
+Ctrl + R 选择环切（Loop Cut）, 用鼠标滚轮可以增进环切数目  
+Ctrl + A 应用（Apply）物体的各种变化(Transform)（3D打印时这个要注意）
+Shift + 鼠标左键选中Object，然后再Shift + 鼠标左键选择一个Object, Ctrl + L 就可以选择 Link Material 到最后一次选择的Object (类似copy material from the last selected object)
+
+Shift + 左键先选择其中一个Object，然后再按Shift + 左键选择另一个。这时按住Ctrl + P，使前者Object的parent指向为后者（即后者是前者的的Parent）
+
+### Shader Nodes  
+- 点击菜单Shading可以呼出Node节点，Node节点从左到右执行，Node之间连线可以用鼠标垂直滑动切开表示断开连接（类似切水果）  
+- Add-ons里开启Node Wrangler可以看每个Node节点对物体shader的效果（Ctrl + Shift + 鼠标左键来选择Node节点）  
+
+### Texture Editor  
+- 对多个输入框同时处理，左键点击其中一个输入框不放，然后拖动到其他输入框，放开左键，那么就会同时选中多个输入框进行同时输入数值  
+-  进入Texture Paint后，选中UV Editor，并开启同步选择器（UV Sync Selector）在选择模型表面同时也会选中UV图片  
+-  在Textur Paint中， F是笔刷大小，Shift + F是笔刷力度  
+-  X键可以切换最近选择的2中颜色  
+
+### Geometry Nodes  
+-Instance on Points的instance可以从右上角的Object直接拖过来  
