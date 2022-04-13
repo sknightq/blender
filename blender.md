@@ -62,4 +62,16 @@ Shift + 左键先选择其中一个Object，然后再按Shift + 左键选择另�
 -  X键可以切换最近选择的2中颜色  
 
 ### Geometry Nodes  
--Instance on Points的instance可以从右上角的Object直接拖过来  
+- Instance on Points的instance可以从右上角的Object直接拖过来  
+- 悬浮于输入框时，按I可以插入关键帧  
+- Shift + 右方向键可以设置末尾关键帧  
+- 可以在任何地方加入关键帧比如材质颜色  
+- 在输入框里输入#frame表示值随关键帧变化  
+- Ctrl + J 插入Layout/Frame，用于对Node节点做注释  
+- 按N可以调出Node节点框（在原本右侧小箭头处）  
+
+### Camera  
+Focal Length 值越大，画面深度越小，物体间的前后关系不容易识别。  
+Clip Start 靠近相机裁剪位置，值越小，裁剪开始位置离镜头越近。  
+I 插入关键帧
+左下角的 Playback 里的Frame dropping可以让动画预览时按正常速度播放，复杂模型为了不掉帧，会降低播放速度（比实际播放时间长）
